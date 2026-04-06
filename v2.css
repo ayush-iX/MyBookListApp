@@ -1,0 +1,80 @@
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Clean font */
+    background-color: #f4f4f4; /* Light background */
+}
+
+/* Header styling */
+#main-header {
+    background-color: green; /* Green header */
+    color: white; /* White text */
+    padding: 15px 0; /* Space inside */
+}
+
+/* Center container */
+.container {
+    width: 80%; /* Width */
+    margin: auto; /* Center horizontally */
+}
+
+/* Title styling */
+#header-title {
+    margin: 0; /* Remove default margin */
+}
+
+/* Card box */
+#main-card {
+    background: white; /* White card */
+    padding: 20px; /* Inner spacing */
+    margin-top: 20px; /* Space from top */
+    border: 1px solid #ccc; /* Light border */
+}
+
+/* Section titles */
+.title {
+    margin-bottom: 10px; /* Space below */
+}
+
+/* Form styling */
+#addForm {
+    display: flex; /* Put input and button in one line */
+    margin-bottom: 20px;
+}
+
+/* Input box */
+#item-input {
+    flex: 1; /* Take full width */
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Submit button */
+#submit-btn {
+    padding: 8px 15px;
+    background: black;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+#submit-btn:hover {
+    background: #333;
+}
+
+/* List styling */
+#items {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+}
+
+/* Each list item */
+.list-item {
+    background: #f4f4f4;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
