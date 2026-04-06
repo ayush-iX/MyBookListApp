@@ -7,7 +7,7 @@ This is a simple Book List web application where users can add,view and delete b
 -Clean UI
 ## Technologies used
 -HTML
--CSS
+-Bootstrap CSS
 -Javascript
 
 
